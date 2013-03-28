@@ -1,0 +1,134 @@
+* {
+	margin:0;
+	padding:0;	
+}
+
+html, body {
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #D3D3D3;
+}
+
+a {	
+	color: #000;
+}
+
+a:hover {
+	color: #4099ff;
+}
+
+body>div {
+	clear: both;
+	margin: 500px 20%;
+	text-align: center;
+	width: 
+}
+
+body>div>form>input[type=text] {
+	width: 300px;
+}
+
+header {
+	font-size: 20px;
+	border: 2px solid;
+	border-radius: 20px;
+	max-width: 750px;
+	min-width: 350px;
+	margin: 20px 20%;
+	text-align: center;
+	background-color: #5F9EA0;
+	box-shadow: 0px 0px 5px #005353;
+}
+
+header nav {
+	display: inline-block;	
+}
+
+header h1 {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;	
+}
+
+header ul {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;	
+}
+
+header li {
+	display: inline-block;	
+	margin-right: 10px;
+}
+
+header form {
+	display: inline-block;	
+	padding: 5px;
+	margin: 5px;
+	vertical-align: 20%;
+}
+
+header input {
+	width: 200px;
+	padding: 5px 5px 5px 25px;
+	border: 2px solid;
+	border-radius: 20px;
+	color: 	#545454;
+	background: #DCDCDC url('glyphicons_027_search.png') no-repeat;
+	box-shadow: 0px 0px 5px #333;
+}
+
+#blogs {
+	margin: 0 10%;
+	padding: 20px 10%;
+}
+
+#blogs h2 {
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#container {
+	border: 2px solid;
+	border-radius: 20px;
+	padding-top: 10px;
+	margin-top: 10px;
+	float: left;
+	margin-right: 40px;
+	background-color: #fff;
+}
+
+.blog-row {
+	margin: 20px;
+	min-width: 308px;
+}
+
+.blog-row img {
+	
+}
+
+#feeds {
+	border: 2px solid;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+	width: 330px;
+	float: left;
+	background-color: #fff;	
+}
+
+#feeds h2 {
+
+}
+
+#feeds ul {
+	list-style-type: none;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+#feeds li {
+	
+}
+
