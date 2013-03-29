@@ -18,13 +18,17 @@ a:hover {
 }
 
 body>div {
+	margin: 20px 20%;
+}
+
+#quickpost {
 	clear: both;
 	margin: 500px 20%;
 	text-align: center;
 	width: 
 }
 
-body>div>form>input[type=text] {
+#quickpost input[type=text] {
 	width: 300px;
 }
 

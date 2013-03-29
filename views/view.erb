@@ -1,0 +1,25 @@
+<div>
+	<p>
+		ID: <%= @cur_post.id %>
+	</p>
+
+	<p>
+		Post: <%= @cur_post.post %>
+	</p>
+
+	<p>
+		Number of Characters: <%= @cur_post.num_ch %>
+	</p>
+
+	<p>
+		Date/Time of Post: <%= @cur_post.cur_date %>
+	</p>
+</div>
+
+
+<div>
+	<form method="post" action= <%= "/edit/#{@cur_post.id}" %> >
+		<p>Edit Post</p>
+		<input type="text" name="text" /><input type="submit" />
+	</form>
+</div>

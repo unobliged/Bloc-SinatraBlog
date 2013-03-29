@@ -1,0 +1,20 @@
+<h1>Posts</h1>
+
+<% @posts.each do |post| %>
+<div>
+	<a href= <%= "/#{post.id}" %> >
+		<p>ID: <%= post.id %></p>
+	</a>
+	<p>
+		Post: <%= post.post %>
+	</p>
+
+	<p>
+		Number of Characters: <%= post.num_ch %>
+	</p>
+
+	<p>
+		Date/Time of Post: <%= post.cur_date %>
+	</p>
+</div>
+<% end %>
